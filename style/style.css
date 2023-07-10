@@ -1,0 +1,279 @@
+*{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/* Heading Part */
+.heading-background{
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    
+}
+.head-details{
+    margin-left: 100px;
+}
+.head-details h1{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    width: 738px;
+    margin-top: 150px;
+    margin-bottom: 32px;
+    margin-right: 97px;
+    
+}
+.head-details p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+    margin-bottom: 32px;
+}
+.head-details input{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    background: #E55473;
+    border: 0 solid #E55473;
+    border-radius: 8px;
+    padding: 20px 43px;
+}
+.head-img img{
+    width: 550px;
+    height: 700px;
+    margin-top: 50px;
+}
+/* main part  */
+/* 1st section  */
+.sec1{
+    margin: 178px 100px;
+    text-align: center;
+}
+.sec1-head h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.sec1-head p{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 365px;
+    margin-top: 24px;
+}
+.sec1-img{
+    display: flex;
+    margin: 48px 100px;
+    align-items: center;
+}
+.s1-img-1{
+    width: 334px;
+    height: 430px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin: 24px;
+    padding-top: 50px;
+}
+.s1-img-2{
+    width: 334px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin: 24px;
+    padding-top: 100px;
+}
+.s1-img-3{
+    width: 334px;
+    height: 430px;
+    border-radius: 300px 300px 0px 0px;
+    background:  rgba(71, 125, 17, 0.15);
+    margin: 24px;
+    padding-top: 50px;
+}
+.sec1-img a{
+    color: #272727;
+}
+
+/* 2nd section */
+.form{
+    width: 500px;
+    background-color: rgba(71, 125, 17, 0.15);
+    text-align: center;
+    margin: 70px 400px ;
+    padding: 100px;
+}
+.form h2{
+    margin-bottom: 30px;
+}
+form label{
+    display: block;
+    margin: 10px;
+}
+#form-btn{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    background: #E55473;
+    border: 0 solid #E55473;
+    border-radius: 8px;
+    padding: 15px 23px;
+    margin: 20px;
+
+}
+
+/* Third section */
+.sec-3{
+    display:flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 100px;
+    padding: 50px;
+    justify-content: space-around;
+}
+.sec-3-part-1{
+    text-align: center;
+}
+.sec-3-part-2{
+    text-align: center;
+}
+.sec-3-part-3{
+    text-align: center;
+}
+
+/* Section 4 */
+.sec-4{
+    display: flex;
+    background: rgba(229, 84, 115, 0.05);
+    justify-content: space-around;
+    padding: 80px 200px;
+}
+.sec-4-detail{
+    margin-right: 100px;
+    margin-top: 150px;
+    text-align: center;
+    align-items: center;
+}
+.sec-4-detail h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.sec-4-detail p{
+    width: 594px;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.sec-4-detail input{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    background: #E55473;
+    border: 0 solid #E55473;
+    border-radius: 8px;
+    padding: 15px 23px;
+    margin: 20px;
+}
+#sp{
+    color: #E55473;
+}
+/* section 5 */
+.sec-5{
+    margin: 50px 100px;
+}
+.sec-5-detail{
+    text-align: center;
+}
+.sec-5-detail h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.sec-5-detail p{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 365px;
+    margin-top: 24px;
+}
+.sec-5-img{
+    display: flex;
+    justify-content: space-around;
+}
+.sec-5-img img{
+    width: 250px;
+    margin-top: 35px;
+}
+/* section 6 */
+.sec-6{
+    background-image: url("../Flower\ Asset/Rectangle 9.png");
+    height: 300px;
+    margin: 150px 100px;
+    text-align: center;
+    padding-top: 100px;
+}
+.sec-6-des h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.sec-6-des p{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 365px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.sec-6-input #email{
+    height: 43px;
+    width: 400px;
+    border: 2px solid #5a3c3c;
+    border-radius: 8px;
+    background: #918787;
+}
+.sec-6-input #sub{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    background: #E55473;
+    border: 0 solid #E55473;
+    border-radius: 8px;
+    padding: 15px 23px;
+    margin: 20px;
+}
+/* Footer */
+.footer{
+    height: 350px;
+    background: #111010;
+    text-align: center;
+    padding-top: 100px;
+}
+.footer h2{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.footer p{
+    width: 565px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 470px;
+    margin-bottom: 30px;
+}
+.footer small{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+

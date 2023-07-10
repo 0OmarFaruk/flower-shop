@@ -4,20 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Shop</title>
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Open+Sans:wght@400;600&family=Work+Sans&display=swap" rel="stylesheet">
+
+    <!-- css file -->
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <!-- Heading part -->
     <header>
-        
+        <div class="heading-background">
+            <div class="head-details">
+                <h1>Let's make beautiful flowers a part of your life.</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                <input type="submit" value="Shop Now">
+            </div>
+            <div class="head-img">
+                <img src="Flower Asset/pngwing 10.png" alt="">
+            </div>
+        </div>
     </header>
     <!-- Middle part -->
     <main>
+        <!-- Section -1 -->
+        <div class="sec1">
+            <div class="sec1-head">
+                <h3>Our Featured Flowers</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="sec1-img">
+                <div>
+                    <div class="s1-img-1">
+                        <img width="280px" height="428px" src="Flower Asset/pngwing 6.png" alt="">
+                    </div>
+                    <a href="#">Pink Flower Tree</a>
+                </div>
+                <div>
+                    <div class="s1-img-2">
+                        <img width="300px" height="300px" src="Flower Asset/pngwing 5.png" alt="">
+                    </div>
+                    <a href="#">Pink Flower Tree</a>
+                </div>
+                <div>
+                    <div class="s1-img-3">
+                        <img width="314px" height="430px" src="Flower Asset/pngwing 7.png" alt="">
+                    </div>
+                    <a href="#">Pink Flower Tree</a>
+                </div>
+            </div>
+        </div>
 
+        <!-- 2nd section for bonus -->
+        <div class="sec-2">
+            <div class="form">
+                <h2>Please fill up the given form for order</h2>
+                <form>
+                    <label for="name">Your name :
+                        <input id="name" type="text" placeholder="Enter your name ">
+                    </label>
+                    <label for="email">Your email :
+                        <input id="email" type="email" placeholder="Enter your email">
+                    </label>
+                    <label for="phone">Your phone :
+                        <input id="phone" type="text" placeholder="Type your phone no.">
+                    </label>
+                    <fieldset>
+                        <legend>Pick one Flower</legend>
+                        <label for="rose">
+                            <input type="radio" name="flower" id="rose">
+                            Rose
+                        </label>
+                        <label for="belly">
+                            <input type="radio" name="flower" id="belly">
+                            Belly
+                        </label>
+                        <label for="sunflower">
+                            <input type="radio" name="flower" id="sunflower">
+                            Sunflower
+                        </label>
+                    </fieldset>
+                    <input id="form-btn" type="reset" value="Reset">
+                    <input id="form-btn" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <!-- sec-3  -->
+        <div class="sec-3">
+            <div class="sec-3-part-1">
+                <img src="Flower Asset/Group 57.png" alt="">
+                <p>Same Day Delivery. Click & Collect.</p>
+            </div>
+            <div class="sec-3-part-2">
+                <img src="Flower Asset/Group 58.png" alt="">
+                <p>Fresh Flowers. Local Growers.</p>
+            </div>
+            <div class="sec-3-part-3">
+                <img src="Flower Asset/Group 59.png" alt="">
+                <p>24/7 Free Support.</p>
+            </div>
+        </div>
+        <!-- section 4 -->
+        <div class="sec-4">
+            <div class="sec-4-detail">
+                <h2>Hot Deal ! Sale Up To 25% <span id="sp">Off</span></h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <input type="submit" value="Sign Up">
+            </div>
+            <div class="sec-4-img">
+                <img src="Flower Asset/pngwing 8.png" alt="">
+            </div>
+        </div>
+        <!-- section 5 -Social media -->
+        <div class="sec-5">
+            <div class="sec-5-detail">
+                <h3>Instagram</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="sec-5-img">
+                <img src="Flower Asset/Flower 01.png" alt="">
+                <img src="Flower Asset/Rectangle 4.png" alt="">
+                <img src="Flower Asset/Rectangle 5.png" alt="">
+                <img src="Flower Asset/Rectangle 6.png" alt="">
+            </div>
+        </div>
+        <!-- section 6 -->
+        <div class="sec-6">
+            <div class="sec-6-des">
+                <h3>Get The Latest Deals</h3>
+                <p>$30 coupon for first shopping</p>
+            </div>
+            <div class="sec-6-input">
+                <input id="email" type="text" placeholder="Enter your email">
+                <input type="submit" value="Subscribe" id="sub">
+            </div>
+        </div>
     </main>
     <!-- Last Part -->
     <footer>
-
+        <div class="footer">
+            <h2><span id="sp">Flower</span>Shop</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <small>@2020-2023, FlowerShop.com. All rights reserved. </small>
+        </div>
     </footer>
 </body>
 </html>
